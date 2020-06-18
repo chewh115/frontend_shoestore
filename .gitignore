@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# VSCode ignore text from gitignore.io
 
 # dependencies
 /node_modules
@@ -21,3 +22,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
