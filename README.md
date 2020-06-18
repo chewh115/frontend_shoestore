@@ -22,4 +22,4 @@ shoe_type
 fasten_type
 
 Link to backend api:
-https://github.com/chewh115/drf_shoestore/tree/dev
+https://github.com/chewh115/drf_shoestore/tree/cors
